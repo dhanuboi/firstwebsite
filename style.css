@@ -1,0 +1,1413 @@
+*{
+    padding: 0px;
+    margin:0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#header{
+    background-color: rgb(0,0,0);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media all and (min-width:600px) and (max-width:700px){
+    #sun{
+        height: 22px;
+        font-size: 17px;
+        width: 25px;
+    }
+    #moon{
+        height: 22px;
+        font-size: 17px;
+        width: 25px;
+    }
+
+    #sunmoon{
+        display: flex;
+        height: 25px;
+        justify-content: center;
+        margin-left: 10px;
+    }
+    
+    #twitter{
+        height: 22px;
+        width: 25px;
+        font-size: 17px;
+    }
+    #facebook{
+        height: 22px;
+        width: 25px;
+        font-size: 17px;
+    }
+    #youtube{
+        height: 22px;
+        width: 25px;
+        font-size: 17px;
+    }
+    #instagram{
+        height: 22px;
+        width: 25px;
+        font-size: 17px;
+    }
+    #socialmedialogo{
+        display: flex;
+        justify-content: center;
+        margin-right: 10px;   
+    }
+    #search{
+        height: 25px;
+        font-size: 20px;
+        width:35px;
+        margin-top: 15px;
+    }
+    #gmail{
+        height: 25px;
+        font-size: 20px;
+        width:35px;
+        margin-top: 15px;
+
+    }
+    #gmailsearchlogo{
+        display: flex;
+        justify-content: center;
+        width:100%;
+        margin-bottom: 10px;
+    }
+    #Contests{
+        height: 30px;
+        font-size: 20px;
+        border: 1px solid gray;
+        width: 85%;
+    }
+    #Subscription{
+        height: 30px;
+        font-size: 20px;
+        width:31.9%;
+        border: 1px solid gray;
+        border-bottom: none;
+    }
+    #Art{
+        height: 30px;
+        font-size: 20px;
+        width:19.8%;
+        border: 1px solid gray;
+        border-bottom: none;
+
+    }
+    #People{
+        border: 1px solid gray;
+        border-bottom: none;
+        height: 30px;
+        width:16.34%;
+        font-size: 20px;
+    }
+    #Ideas{
+        height: 30px;
+        font-size: 20px;
+        border: 1px solid gray;
+        width:16.34%;
+        border-bottom: none;
+    }
+
+    #peopleart{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #otherstuff{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        width: 85%;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    #theessayist{
+        display: flex;
+        justify-content:center;
+        color: tomato;
+        min-width:100% ;
+        font-size: 35px;
+        text-align: right;
+        font-weight: 400;
+    
+    }
+    
+    #header{
+        background-color: rgb(0,0,0);
+        display: flex;
+        flex-wrap: wrap;
+        height: fit-content;
+}
+    #theeassyistandlogo{
+        display: flex;
+        flex-wrap: wrap;
+        height: fit-content;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+}
+}
+@media all and (max-width:600px){
+    #sun{
+        height: 22px;
+        font-size: 17px;
+        width: 25px;
+    }
+    #moon{
+        height: 22px;
+        font-size: 17px;
+        width: 25px;
+    }
+
+    #sunmoon{
+        display: flex;
+        width: 85%;
+        height: 25px;
+        justify-content: center;
+    }
+    
+    #twitter{
+        height: 25px;
+        width: 25%;
+        font-size: 17px;
+    }
+    #facebook{
+        height: 25px;
+        width: 25%;
+        font-size: 17px;
+    }
+    #youtube{
+        height: 25px;
+        width: 25%;
+        font-size: 17px;
+    }
+    #instagram{
+        height: 25px;
+        width: 25%;
+        font-size: 17px;
+    }
+    #socialmedialogo{
+        display: flex;
+        justify-content: center;
+        width:85%;    
+    }
+    #search{
+        height: 25px;
+        width:50%;
+        font-size: 20px;
+    }
+    #gmail{
+        height: 25px;
+        width:50%;
+        font-size: 20px;
+
+    }
+    #gmailsearchlogo{
+        display: flex;
+        justify-content: center;
+        width:85%;
+    }
+    #Contests{
+        height: 30px;
+        font-size: 20px;
+        border: 1px solid gray;
+        width: 85%;
+    }
+    #Subscription{
+        height: 30px;
+        font-size: 20px;
+        border: 1px solid gray;
+        border-bottom: none;
+        width: 85%;
+    }
+    #Art{
+        height: 30px;
+        font-size: 20px;
+        border: 1px solid gray;
+        border-bottom: none;
+        width: 85%;
+
+    }
+    #People{
+        border: 1px solid gray;
+        border-bottom: none;
+        height: 30px;
+        font-size: 20px;
+        width: 85%;
+    }
+    #Ideas{
+        height: 30px;
+        font-size: 20px;
+        border: 1px solid gray;
+        border-bottom: none;
+        width: 85%;
+    }
+
+    #peopleart{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #otherstuff{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    #theessayist{
+        display: flex;
+        justify-content:center;
+        color: tomato;
+        min-width:100% ;
+        font-size: 35px;
+        text-align: right;
+        font-weight: 400;
+    
+    }
+    
+    #header{
+        background-color: rgb(0,0,0);
+        display: flex;
+        flex-wrap: wrap;
+        height: fit-content;
+}
+    #theeassyistandlogo{
+        display: flex;
+        flex-wrap: wrap;
+        height: fit-content;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+}
+}
+
+#theeassyistandlogo{
+    display: flex;
+    min-width: 270px;
+    min-height: 65px;
+    justify-content: center;
+    align-items: center;
+
+}
+#theessayist{
+    color: tomato;
+    width:220px ;
+    font-size: 35px;
+    text-align: right;
+    font-weight: 400;
+
+}
+#image{
+    background-image: url(logo-ee-8.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60px;
+    height:52px;
+    display: inline;
+}
+#otherstuff{
+    display: flex;
+    width: 720px;
+    align-items: center;
+}
+#peopleart{
+    display: flex;
+    min-width: 350px;
+}
+
+@media all and (min-width:1100px) and (max-width:2000px){
+    #header{
+        height: 65.4px;
+    }
+    #instagram{
+        height: 27px;
+        width: 30px;   
+    }
+    #facebook{
+        height: 27px;
+        width: 30px;   
+    }
+    #twitter{
+        height: 27px;
+        width: 30px;   
+    }
+    #youtube{
+        height: 27px;
+        width: 30px;   
+
+    }
+    #sun{
+        height: 27px;
+        width: 30px;
+    }
+    #moon{
+        height: 27px;
+        width: 30px;
+    }
+    #search{
+        height: 27px;
+        width: 30px;
+    }
+    #gmail{
+        height: 27px;
+        width: 30px;
+    }
+
+    #otherstuff{
+        justify-content: space-between;
+    }
+  
+    #People{
+        border: 1px solid rgb(255,255,255,0.8);
+        min-height: 25px;
+        min-width: 65.68px;
+        border-right: none;
+        font-size: 15px;
+    }
+    #Ideas{
+        border: 1px solid rgb(255,255,255,0.8);
+        min-height: 25px;
+        min-width: 56.24px;
+        border-right: none;
+        font-size: 15px;
+    }
+    #Art{
+        border: 1px solid rgb(255,255,255,0.8);
+        min-height: 25px;
+        min-width: 40.91px;
+        border-right: none;
+        font-size: 15px;
+    }
+    #Subscription{
+        border: 1px solid rgb(255,255,255,0.8);
+        border-right: none;
+        font-size: 15px;
+        min-height: 25px;
+        min-width: 108.1px;
+    }
+    #Contests{
+        min-height: 25px;
+        min-width: 79.07px;
+        border: 1px solid rgb(255,255,255,0.8);
+        font-size: 15px;
+    }
+}
+#People{
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    text-decoration: none;
+    transition: all .5s linear;
+}
+#People:hover{
+    color: tomato;
+}
+#Ideas{
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all .5s linear;
+}
+#Ideas:hover{
+    color: tomato;
+}
+#Art{
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all .5s linear;
+}
+#Art:hover{
+    color: tomato;
+}
+#Subscription{
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all .5s linear;
+}
+#Subscription:hover{
+    color: tomato;
+}
+#Contests{
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all .5s linear;
+}
+#Contests:hover{
+    color: tomato;
+}
+#gmailsearchlogo{
+    display: flex;
+}
+#gmail{
+    color: gray;
+    border: 1px solid gray;
+    border-right: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all .5s linear;
+}
+#gmail:hover{
+    color: tomato;
+}
+#search{
+    color: gray;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all .5s linear;
+}
+#search:hover{
+    color: tomato;
+}
+#socialmedialogo{
+    display: flex;
+}
+#instagram{
+    color: gray;
+    border: 1px solid gray;
+    border-right: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all .5s linear;
+}
+#instagram:hover{
+    color: tomato;
+}
+#facebook{
+    color: gray;
+    border: 1px solid gray;
+    border-right: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all .5s linear;
+}
+#facebook:hover{
+    color: tomato;
+}
+#youtube{
+    color: gray;
+    border: 1px solid gray;
+    border-right: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all .5s linear;
+}
+#youtube:hover{
+    color: tomato;
+}
+#twitter{
+    color: gray;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all .5s linear;
+}
+#twitter:hover{
+    color: tomato;
+}
+
+#sunmoon{
+    display:flex
+
+}
+#emptydivforspace{
+    width: 20px;
+}
+#moon{
+    color: gray;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all .5s linear;
+}
+#moon:hover{
+    color: tomato;
+}
+#sun{
+    color: gray;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: none;
+    text-decoration: none;
+    transition: all .5s linear;
+}
+@media all and (min-width:700px) and (max-width:1100px){
+    #sun{
+        height: 22px;
+        font-size: 17px;
+        width: 25px;
+    }
+    #moon{
+        height: 22px;
+        font-size: 17px;
+        width: 25px;
+    }
+
+    #sunmoon{
+        display: flex;
+        height: 25px;
+        justify-content: center;
+        margin-left: 10px;
+    }
+    
+    #twitter{
+        height: 22px;
+        width: 25px;
+        font-size: 17px;
+    }
+    #facebook{
+        height: 22px;
+        width: 25px;
+        font-size: 17px;
+    }
+    #youtube{
+        height: 22px;
+        width: 25px;
+        font-size: 17px;
+    }
+    #instagram{
+        height: 22px;
+        width: 25px;
+        font-size: 17px;
+    }
+    #socialmedialogo{
+        display: flex;
+        justify-content: center;
+        margin-right: 10px;   
+    }
+    #search{
+        height: 25px;
+        font-size: 20px;
+        width:35px;
+        margin-top: 15px;
+    }
+    #gmail{
+        height: 25px;
+        font-size: 20px;
+        width:35px;
+        margin-top: 15px;
+
+    }
+    #gmailsearchlogo{
+        display: flex;
+        justify-content: center;
+        width:100%;
+        margin-bottom: 10px;
+    }
+    #Contests{
+        height: 30px;
+        font-size: 20px;
+        border: 1px solid gray;
+        width: 15%;
+    }
+    #Subscription{
+        height: 30px;
+        font-size: 20px;
+        width:28.9%;
+        border: 1px solid gray;
+    }
+    #Art{
+        height: 30px;
+        font-size: 20px;
+        width:16.8%;
+        border: 1px solid gray;
+
+    }
+    #People{
+        border: 1px solid gray;
+        height: 30px;
+        width:18.54%;
+        font-size: 20px;
+    }
+    #Ideas{
+        height: 30px;
+        font-size: 20px;
+        border: 1px solid gray;
+        width:18.54%;;
+    }
+
+    #peopleart{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #otherstuff{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        width: 85%;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    #theessayist{
+        display: flex;
+        justify-content:center;
+        color: tomato;
+        min-width:100% ;
+        font-size: 35px;
+        text-align: right;
+        font-weight: 400;
+    
+    }
+    
+    #header{
+        background-color: rgb(0,0,0);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: fit-content;
+}
+    #theeassyistandlogo{
+        display: flex;
+        flex-wrap: wrap;
+        height: fit-content;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+}
+}
+@media all and (min-width:2000px){
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+    }
+}
+@media all and (min-width:2000px){
+
+    #sun{
+        height: 22px;
+        font-size: 17px;
+        width: 25px;
+    }
+    #moon{
+        height: 22px;
+        font-size: 17px;
+        width: 25px;
+    }
+
+    #sunmoon{
+        display: flex;
+        width: 85%;
+        height: 25px;
+        justify-content: center;
+    }
+    
+    #twitter{
+        height: 25px;
+        width: 25%;
+        font-size: 17px;
+    }
+    #facebook{
+        height: 25px;
+        width: 25%;
+        font-size: 17px;
+    }
+    #youtube{
+        height: 25px;
+        width: 25%;
+        font-size: 17px;
+    }
+    #instagram{
+        height: 25px;
+        width: 25%;
+        font-size: 17px;
+    }
+    #socialmedialogo{
+        display: flex;
+        justify-content: center;
+        width:85%;    
+    }
+    #search{
+        height: 25px;
+        width:20%;
+        font-size: 20px;
+    }
+    #gmail{
+        height: 25px;
+        width:20%;
+        font-size: 20px;
+
+    }
+    #gmailsearchlogo{
+        display: flex;
+        justify-content: center;
+        width:85%;
+    }
+    #Contests{
+        height: 40px;
+        font-size: 20px;
+        border: 1px solid gray;
+        width: 85%;
+    }
+    #Subscription{
+        height: 40px;
+        font-size: 20px;
+        border: 1px solid gray;
+        border-bottom: none;
+        width: 85%;
+    }
+    #Art{
+        height: 40px;
+        font-size: 20px;
+        border: 1px solid gray;
+        border-bottom: none;
+        width: 85%;
+
+    }
+    #People{
+        border: 1px solid gray;
+        border-bottom: none;
+        height: 40px;
+        font-size: 20px;
+        width: 42.5%;
+    }
+    #Ideas{
+        height: 40px;
+        font-size: 20px;
+        border-left: none;
+        border: 1px solid gray;
+        border-bottom: none;
+        width: 42.5%;
+    }
+
+    #peopleart{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #otherstuff{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+
+    #theessayist{
+        display: flex;
+        justify-content:center;
+        color: tomato;
+        min-width:100% ;
+        font-size: 35px;
+        text-align: right;
+        font-weight: 400;
+    
+    }
+    
+    #header{
+        background-color: rgb(0,0,0);
+        display: flex;
+        height: 45%;
+        margin-top: 100px;
+        width: 16%;
+        flex-wrap: wrap;
+}
+    #theeassyistandlogo{
+        display: flex;
+        flex-wrap: wrap;
+        height: fit-content;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+}
+}
+
+/*header finish body start*/
+
+#mag2img{
+    display: flex;
+    background-image:url("https://picsum.photos/1200/500?random=number+1");
+    background-size: cover;
+    width: 95%;
+    height: 25vh;
+    max-height:200px;
+    background-color: white;
+    justify-content: center;
+    border-radius: 1vw;
+
+}
+#mag3img{
+    display: flex;
+    background-image:url("https://picsum.photos/1200/500?random=number+2");
+    background-size: cover;
+    width: 95%;
+    height: 25vh;
+    max-height:200px;
+    background-color: white;
+    justify-content: center;
+    border-radius: 1vw;
+
+}
+#mag4img{
+    display: flex;
+    background-image:url("https://picsum.photos/1200/500?random=number+3");
+    background-size: cover;
+    width: 95%;
+    height: 25vh;
+    max-height:200px;
+    background-color: white;
+    justify-content: center;
+    border-radius: 1vw;
+
+}
+#mag5img{
+    display: flex;
+    background-image:url("https://picsum.photos/1200/500?random=number+4");
+    background-size: cover;
+    width: 95%;
+    height: 25vh;
+    max-height:200px;
+    background-color: white;
+    justify-content: center;
+    border-radius: 1vw;
+
+}
+#mag6img{
+    display: flex;
+    background-image:url("https://picsum.photos/1200/500?random=number+5");
+    background-size: cover;
+    width: 95%;
+    height: 25vh;
+    max-height:200px;
+    background-color: white;
+    justify-content: center;
+    border-radius: 1vw;
+
+}
+#mag7img{
+    display: flex;
+    background-image:url("https://picsum.photos/1200/500?random=number+6");
+    background-size: cover;
+    width: 95%;
+    height: 25vh;
+    max-height:200px;
+    background-color: white;
+    justify-content: center;
+    border-radius: 1vw;
+
+}
+#mag8img{
+    display: flex;
+    background-image:url("https://picsum.photos/1200/500?random=number+7");
+    background-size: cover;
+    width: 95%;
+    height: 25vh;
+    max-height:200px;
+    background-color: white;
+    justify-content: center;
+    border-radius: 1vw;
+
+}
+#mag9img{
+    display: flex;
+    background-image:url("https://picsum.photos/1200/500?random=number+8");
+    background-size: cover;
+    width: 95%;
+    height: 25vh;
+    max-height:200px;
+    background-color: white;
+    justify-content: center;
+    border-radius: 1vw;
+
+}
+#mag10img{
+    display: flex;
+    background-image:url("https://picsum.photos/1200/500?random=number+9");
+    background-size: cover;
+    width: 95%;
+    height: 25vh;
+    max-height:200px;
+    background-color: white;
+    justify-content: center;
+    border-radius: 1vw;
+
+}
+#mag11img{
+    display: flex;
+    background-image:url("https://picsum.photos/1200/500?random=number+10");
+    background-size: cover;
+    width: 95%;
+    height: 25vh;
+    max-height:200px;
+    background-color: white;
+    justify-content: center;
+    border-radius: 1vw;
+
+}
+#mag12img{
+    display: flex;
+    background-image:url("https://picsum.photos/1200/500?random=number+12");
+    background-size: cover;
+    width: 95%;
+    height: 25vh;
+    max-height:200px;
+    background-color: white;
+    justify-content: center;
+    border-radius: 1vw;
+
+}
+#content{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    flex-wrap: wrap;
+    align-content:flex-start;
+    background-color: white;
+}
+@media all and (max-width:2000px){
+    #content{
+        width:100vw
+    }
+}
+#mag1{
+    display: flex;
+    width: 33.33%;
+    width: 33.33%;
+    height: fit-content;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+#hearts{
+    height: 0%;
+    width: 0%;
+    font-size:0%;
+}
+#mag1img{
+    display: flex;
+    background-image:url("https://picsum.photos/1200/500?random=number");
+    background-size: cover;
+    width: 95%;
+    background-color: white;
+    justify-content: center;
+    border-radius: 1vw;
+
+}
+@media all and (max-width:2000px){
+    #mag1img{
+        max-height: 200px;
+        height: 25vh;
+    }
+}
+#imgtext{
+    height:fit-content;
+    background-color: white;
+    font-size: 1em;
+    text-align: center;
+}
+
+#para1mag1{
+    display: flex;
+    align-items: center;
+    min-height:11vh ;
+    width: 85%;
+    background-color: white;
+    color: black;
+    font-size: 100%;
+}
+#headingandcomment{
+    min-height: 4vh;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+
+    background-color: white
+}
+#headmag1{
+    height: fit-content;
+    display: flex;
+    align-items: end;
+    font-size: 70%;
+
+}
+#divforspaceb{
+    width: 100%;
+    min-height: 2px;
+}
+
+#para2mag2{
+    height: fit-content;
+    display: flex;
+    align-items: end;
+    font-size: 70%;
+}
+#commenticon-ranum
+{  
+    display: flex;
+    align-items: end;
+    font-size: 70%;
+    height:fit-content;
+    justify-self: right;
+}
+/* content finished now footer*/
+#footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+@media all and (max-width:2000px){
+    #footer{
+        width:100vw;
+    }
+}
+#inputfield{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+}
+@media all and (max-width:2000px){
+    #inputfield{
+        width:50%;
+    }
+}
+#nameandinput{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    height: fit-content;
+}
+/* For input backgroundcolor change animation*/
+#name{
+    width:100%;
+    height: fit-content;
+}
+#nameinput{
+    width: 85%;
+    height: 4vh;
+    border:none;
+    outline:1px solid rgb(0,0,0,.5);
+    
+}
+#nameandinput:focus-within textarea{
+    border:none;
+    outline:1px solid hotpink; 
+    background-color: hotpink;
+    color: white;  
+}
+#nameandinput:focus-within input{
+    border:none;
+    outline:1px solid hotpink; 
+    background-color: hotpink;
+    color: white;  
+}
+#nameandinput:focus-within #nameicon{
+    border:none;
+    outline:1px solid hotpink; 
+    background-color: white;
+    color: hotpink;  
+}
+#nameicon{
+    display: flex;
+    height: 4vh;
+    min-width: 12%;
+    border: 1px solid rgb(0,0,0,.5);
+    border-left: none;
+    align-items: center;   
+    justify-content: center;
+    font-size:2vw;
+}
+
+
+#nameinput2{
+    width: 85%;
+    border: none;
+    height: 12vh;
+    outline: 1px solid rgb(0,0,0,.5);
+    resize: none;
+    
+}
+
+
+#nameicon2{
+    display: flex;
+    height: 12vh;
+    width: 12%;
+    border: 1px solid rgb(0,0,0,.5);
+    border-left: none;
+    align-items: center;   
+    justify-content: center;
+    font-size:2vw;
+}
+
+
+#nameandinput:focus-within #nameicon2{
+    border:none;
+    outline:1px solid hotpink; 
+    background-color: white;
+    color: hotpink;  
+}
+/* For input backgroundcolor change animation*/
+#divforspacef{
+    height: 2vh;
+    width: 100%;
+}
+#but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(0,0,0,.5);
+    height: 4vh;
+    background-color: white;
+    min-width: 80%;
+}
+
+#divforspacef2{
+    width: 100vw;
+    height: 2vh;
+}
+#prevnex{
+display: flex;
+justify-content: center;
+gap: 1vw 1vw ;
+flex-wrap: wrap;
+align-items: flex-start;
+height: 12vh;
+width:100vw;
+padding-top: 1vh;
+    
+}
+
+#prev{
+    text-decoration: none;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    gap: 1vw;
+    color: gray;
+
+}
+#next{
+    text-decoration: none;
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    gap: 1vw;
+    color: gray;
+}
+#prev:hover{
+    color: tomato;
+}
+#next:hover{
+    color:tomato
+}
+#divforspacepn{
+    min-width: 100vw;
+    min-height: .1vh;
+}
+@media all and (max-width:900px){
+    #footimage{
+
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    } 
+    #footimagetxt{ 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        width: 90%; 
+        height: fit-content; 
+        font-size:150%; 
+    }
+    #inputfield{
+        width:90%
+    }
+    #mag1{
+        display: flex;
+        width: 50%;
+        width: 50%;
+        height: fit-content;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+@media all and (min-width : 900px) and (max-width:2000px) {
+    #footimage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-items: stretch;
+        width: 45vw;
+        background-image: url("https://picsum.photos/1200/500?random=number+11");
+        background-size: cover;
+    }
+
+    #footimagetxt{
+        width: 80%;
+        height: fit-content;
+        font-size: 3em;
+        color: white;
+
+    }
+    #nameicon{
+        font-size: 1em;
+
+    }
+    #nameicon2{
+        font-size: 1em;
+    }
+}
+@media all and (max-width:600px){
+    #mag1{
+        display: flex;
+        width: 95%;
+        height: fit-content;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    #hearts{
+        display: flex;
+        justify-content: center;
+        width:100vw;
+        height: fit-content;
+        color: lightblue;
+        font-size: 40px;
+    }
+
+}
+@media all and (min-width:2000px){
+    #mag1{
+        display: flex;
+        width:25%;
+        height: fit-content;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    #content{
+        margin-top: 200px;
+        width: 58%;
+        height: fit-content;
+    }
+    #footer{
+        width:20%;
+
+    }
+    #footimage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-items: stretch;
+        width: 80%;
+        background-image: url("https://picsum.photos/1200/500?random=number+11");
+        background-size: cover;
+    }
+
+    #footimagetxt{
+        width: 80%;
+        height: fit-content;
+        font-size: 3em;
+        color: white;
+
+    }
+    #nameicon{
+        font-size: 1em;
+
+    }
+    #nameicon2{
+        font-size: 1em;
+    }
+    #inputfield{
+        width:100%
+    }
+    #name{
+        padding-top: 20px;
+    }
+    #mag1img{
+        height: 130px;
+    }
+    #mag2img{
+        height: 130px;
+    }
+    #mag3img{
+        height: 130px;
+    }
+    #mag4img{
+        height: 130px;
+    }
+    #mag5img{
+        height: 130px;
+    }
+    #mag6img{
+        height: 130px;
+    }
+    #mag7img{
+        height: 130px;
+    }
+    #mag8img{
+        height: 130px;
+    }
+    #mag9img{
+        height: 130px;
+    }
+    #mag10img{
+        height: 130px;
+    }
+    #mag11img{
+        height: 130px;
+    }
+    #mag12img{
+        height: 130px;
+    }
+
+
+
+}
+
+
+
+
+
